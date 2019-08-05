@@ -1,0 +1,188 @@
+body {
+  font-family: "Roboto";
+  font-size: 16px;
+  
+  /* overflow-y: hidden; */
+  /* background-color: #fefefe; */
+  padding: 0;
+  /* display: flex; */
+  /*flex-direction: column; */
+  /* align-items: center; */
+}
+main{
+  background-image: linear-gradient(
+    to bottom right,
+    #3743cd,
+    #6931ae,
+    #9337bc,
+    #fffefe
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.nav i {
+  float: left;
+  color: white;
+  padding: 20px 20px;
+  font-size: 28px;
+  display: flex;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  
+}
+
+button {
+  border-radius: 50px;
+  background-color: #9336dd;
+  color: white;
+  height: 35px;
+  width: 150px;
+  border: none;
+  border: 1px solid #e7e7e7;
+}
+
+
+h1 {
+  color: #fffcfa;
+  font-weight: 900;
+}
+section {
+  /* justify-content: flex-start; */
+  /* align-self: center; */
+  vertical-align: center;
+  flex: 1;
+  /* height: 100%; */
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: middle;
+ 
+}
+
+header {
+  color: #fefefe;
+  height: 80px;
+  justify-content: space-between;
+}
+article {
+  display: flex;
+  justify-content: space-around;
+      flex: 1;
+    align-items: center;  
+    margin-top: -5%;
+}
+
+p {
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 16px;
+}
+.font{
+  text-transform: capitalize;
+}
+.img-appstore{
+  border-radius: 10px;
+width: 20%;
+margin-right: 18px;
+}
+.img-playstore{
+  width: 19%;
+border-radius: 10px;
+}
+.nammakaravali {
+  width: 15%;
+  height: 50%;
+  margin-right: 10px;
+}
+.image{
+  margin: 0;
+  padding: 0;
+}
+.para{
+  text-transform: uppercase;
+font-family: 'Montserrat';
+  font-size: 16px;
+  color: white;
+}
+.order-a{
+  margin-top: -20px;
+}
+
+/* @media(min-width:320px){
+    h6{
+      width: 62%;
+    }
+    .bg-img{
+      height:34%;
+    }
+  }*/
+  
+  
+  @media(max-width:425px){
+    main{
+     
+      height: 150vh;
+    }
+    .nammakaravali {
+      width: 10%;
+      height: 17%;
+      margin-right: 10px;
+  }
+  .para {
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 11px;
+    color: white;
+}
+header{
+  height: 25%;
+}
+article {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+h1 {
+  font-size: 1.5rem;
+}
+p {
+ 
+  font-size: 14px;
+}
+.container {
+  width: 100%;
+  padding-right: 26px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.nav i {
+  
+  font-size: 22px;
+
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+}
+
+@media(max-width:320px){
+  header {
+    height: 18%;
+}
+}
